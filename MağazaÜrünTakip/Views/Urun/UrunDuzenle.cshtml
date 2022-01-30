@@ -1,0 +1,33 @@
+﻿@model MağazaÜrünTakip.Models.Urunler
+@{
+    ViewData["Title"] = "UrunDuzenle";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+@using(@Html.BeginForm("UrunGuncelle","Urun",method:FormMethod.Post))
+{
+    
+       <label>Ürun Adı</label>
+    @Html.TextBoxFor(x=>x.UrunAd, new{@class ="form-control"})
+    @Html.HiddenFor(x=>x.UrunId)
+      <label>Kategori</label>
+    @Html.DropDownListFor(x=>x.Kategorı.KategoriId,(List<SelectListItem>)ViewBag.dgr, new{@class ="form-control"}
+    )
+      <label>Ürun Marka</label>
+    @Html.TextBoxFor(x=>x.UrunMarka, new{@class ="form-control"})
+
+      <label>Ürun Stok</label>
+    @Html.TextBoxFor(x=>x.UrunStok, new{@class ="form-control"})
+
+      <label>Alış Fiyatı</label>
+    @Html.TextBoxFor(x=>x.AlısFıyat, new{@class ="form-control"})
+
+      <label>Satış Fiyatı</label>
+    @Html.TextBoxFor(x=>x.SatısFıyat, new{@class ="form-control"})
+
+
+        <button class="btn  btn-info">Ürün Güncelle</button>
+
+
+}
+

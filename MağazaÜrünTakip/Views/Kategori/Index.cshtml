@@ -1,0 +1,29 @@
+﻿@using MağazaÜrünTakip.Models
+@model List<Kategori>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Id</th>
+        <th>KategoriAdı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach(var x in Model)
+    {
+        <tr>
+            <td>@x.KategoriId</td>
+            <td>@x.KategoriAd</td>
+            <td><a href="/Kategori/KategoriSil/@x.KategoriId" class="btn btn-warning">Sil </td>
+            <td><a href="/Kategori/KategoriGetir/@x.KategoriId" class="btn btn-success">Güncelle </td>
+        </tr>
+    }
+
+</table>
+    <a href="/Kategori/KategoriEkle" class="btn btn-primary">Kategori Ekle</a>
+
+

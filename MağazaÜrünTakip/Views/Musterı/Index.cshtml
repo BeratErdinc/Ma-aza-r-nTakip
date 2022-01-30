@@ -1,0 +1,38 @@
+﻿@using MağazaÜrünTakip.Models
+@model List<Musteri>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Id</th>
+        <th>MusterıAdı</th>
+        <th>MusterıSoyad</th>
+        <th>MusterıSehır</th>
+        <th>MusterıBakıye</th>
+      
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach(var x in Model)
+    {
+        <tr>
+            
+            <td>@x.MusteriId</td>
+            <td>@x.MusteriAd</td>
+            <td>@x.MusteriSoyad</td>
+            <td>@x.MusteriSehir</td>
+            <td>@x.MusteriBakıye</td>
+            
+            <td><a href="/Musterı/MusteriSil/@x.MusteriId" class="btn btn-warning">Sil </td>
+            <td><a href="/Musterı/MusterıDuzenle/@x.MusteriId" class="btn btn-success">Güncelle </td>
+        </tr>
+    }
+
+</table>
+
+    <a href="/Musterı/MusterıEkle" class="btn btn-primary">Musterı Ekle</a>
+

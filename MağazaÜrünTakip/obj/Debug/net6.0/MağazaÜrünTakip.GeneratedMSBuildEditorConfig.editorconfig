@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MağazaÜrünTakip
+build_property.RootNamespace = MağazaÜrünTakip
+build_property.ProjectDir = C:\Users\202516044\Desktop\Asp\MağazaÜrünTakip\MağazaÜrünTakip\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\202516044\Desktop\Asp\MağazaÜrünTakip\MağazaÜrünTakip
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Kategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Kategori/KategoriEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Kategori/KategoriGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcS2F0ZWdvcmlHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Musterı/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyxLFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Musterı/MusterıDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyxLFcTXVzdGVyxLFEdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Musterı/MusterıEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyxLFcTXVzdGVyxLFFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Personel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Personel/PersonelEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcUGVyc29uZWxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Satıs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F0xLFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Satıs/SatısEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F0xLFzXFNhdMSxc0VrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Shared/_AdimLaout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGltTGFvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Urun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Urun/UrunDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Urun/UrunEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/202516044/Desktop/Asp/MağazaÜrünTakip/MağazaÜrünTakip/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-otm25n6zf3

@@ -1,0 +1,18 @@
+﻿@model MağazaÜrünTakip.Models.Personel
+@{
+    ViewData["Title"] = "PersonelEkle";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+<form method="post">
+
+<label>Personel Adı</label>
+@Html.TextBoxFor(x=>x.PersonelAd, new{@class ="form-control"})
+<label>Personel Soyadı</label>
+@Html.TextBoxFor(x=>x.PersonelSoyad, new{@class ="form-control"})
+
+
+<button class="btn btn-secondary"> Personel Ekle</button>
+
+</form>
+

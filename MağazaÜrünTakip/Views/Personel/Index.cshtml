@@ -1,0 +1,33 @@
+﻿@using MağazaÜrünTakip.Models
+@model List<Personel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <td>PersonelId</td>
+        <td>PersonelAd</td>
+        <td>PersonelSoyad</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+
+
+    </tr>
+    @foreach(var x in Model)
+    {
+        <tr>
+            <td>@x.PersonelId</td>
+            <td>@x.PersonelAd</td>
+            <td>@x.PersonelSoyad</td>
+            <td><a href="/Musterı/MusteriSil/@x.PersonelId" class="btn btn-warning">Sil </td>
+            <td><a href="/Musterı/MusterıDuzenle/@x.PersonelId" class="btn btn-success">Güncelle </td>
+
+        </tr>
+    }
+
+</table>
+    <a href="/Musterı/MusterıEkle" class="btn btn-primary">Musterı Ekle</a>
+
+

@@ -1,0 +1,12 @@
+﻿@model MağazaÜrünTakip.Models.Kategori
+@{
+    ViewData["Title"] = "KategoriEkle";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+<form method="post">
+    <label>Kategori Adı</label>
+    @Html.TextBoxFor(x=>x.KategoriAd, new{@class ="form-control"})
+    <button class="btn  btn-info">Kaydet</button>
+
+</form>
+

@@ -1,0 +1,23 @@
+﻿@model MağazaÜrünTakip.Models.Satıslar
+@{
+    ViewData["Title"] = "SatısEkle";
+    Layout = "~/Views/Shared/_AdimLaout.cshtml";
+}
+
+
+<form method="post">
+    
+    <label>Ürünler..</label>
+    @Html.DropDownListFor(x=>x.Urunler.UrunId,(List<SelectListItem>)ViewBag.dgr, new{@class ="form-control"}
+    )
+@Html.HiddenFor(k=>k.SatısId)
+    <label>Personeller</label>
+    @Html.DropDownListFor(x=>x.Personel.PersonelId,(List<SelectListItem>)ViewBag.dgr2, new {@class ="form-control"})
+    <label>Müşteriler</label>
+@Html.DropDownListFor(x=>x.Musteri.MusteriId,(List<SelectListItem>)ViewBag.dgr3, new {@class ="form-control"})
+    <label>Fiyat</label>
+    
+@Html.DropDownListFor(x=>x.Urunler.SatısFıyat,(List<SelectListItem>)ViewBag.dgr4, new {@class ="form-control"})
+
+    <button class="btn btn-dark"> Satış Ekle </button>
+</form>
